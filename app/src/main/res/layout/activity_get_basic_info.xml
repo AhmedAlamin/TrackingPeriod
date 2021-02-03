@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.GetBasicInfo"
+    android:orientation="vertical"
+
+
+
+
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back5"
+        android:scaleType="centerCrop"/>
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="WHEN DID YOUR LAST PERIOD START?"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_weight="2"
+            android:fontFamily="monospace"
+           />
+        <TextView
+        android:id="@+id/etId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/secondary_text_light"
+        android:hint="> Selct Date"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:backgroundTint="@android:color/darker_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOW MANY DAYS DID IT LAST?"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:fontFamily="monospace"
+                />
+           <Button
+               android:id="@+id/buPlus1"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:text="+"
+               android:textSize="20sp"
+               android:background="@android:color/transparent"
+               android:textColor="@color/pink3"
+
+
+               />
+
+            <TextView
+                android:id="@+id/textNum1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:text="1"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/buMin1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="-"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/pink3"
+               />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOW LONG IS YOUR MENSTRUAL CYCLE?"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:fontFamily="monospace"
+                />
+            <Button
+                android:id="@+id/buPlus2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="+"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:textColor="@color/pink3"
+
+                />
+
+            <TextView
+                android:id="@+id/textNum2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:text="28"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/buMin2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="-"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/pink3"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buTrack"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Track now"
+        android:layout_margin="20dp"
+        android:background="@android:color/transparent"
+        android:textSize="18sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/pink"
+        
+        />
+
+
+</LinearLayout>
+
+
+
+
+
+</RelativeLayout>

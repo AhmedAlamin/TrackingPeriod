@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "755613436095",
+    "firebase_url": "https://tracking-period-e85a0.firebaseio.com",
+    "project_id": "tracking-period-e85a0",
+    "storage_bucket": "tracking-period-e85a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755613436095:android:da634806b2734e8ce2de0a",
+        "android_client_info": {
+          "package_name": "com.teachonlineahmedoalamin.trackingperiod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755613436095-etj0jivrqe987daid4g0l2o9sga1asj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teachonlineahmedoalamin.trackingperiod",
+            "certificate_hash": "d8b884d926d5d37cf602898009eacbef186dd44c"
+          }
+        },
+        {
+          "client_id": "755613436095-gme7cug9gvk7jmspfajs8k9d8h034t2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtUdecaDyHV5HcP-O04fyosFMW6AcvVQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755613436095-gme7cug9gvk7jmspfajs8k9d8h034t2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
